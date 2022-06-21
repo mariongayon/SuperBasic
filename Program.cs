@@ -23,7 +23,10 @@ namespace SuperBASIC
 				lib.AddFunction(new Functions.Goto(), 1, "GOTO");
 				lib.AddFunction(new Functions.Pi(), 0, "PI");
 				lib.AddFunction(new Functions.Euler(), 0, "EULER");
+
 				lib.AddFunction(new Functions.ArcSin(), 1, "ARCSIN");
+				lib.AddFunction(new Functions.Sin(), 1, "SIN");
+
 				Runtime r = new Runtime(lib);
 				if (args.Length <= 1)
 				{
