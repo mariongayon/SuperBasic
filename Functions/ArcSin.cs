@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace SuperBASIC.Functions
 {
-    class ArcSin : IFunction
+    public class ArcSin : IFunction
     {
         float IFunction.Apply(List<BasicNumber> arguments)
         {

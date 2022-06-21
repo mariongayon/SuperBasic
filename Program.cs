@@ -3,9 +3,10 @@ using System.IO;
 
 namespace SuperBASIC
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
+
+        static void Main(string[] args)
 		{
 			try
 			{

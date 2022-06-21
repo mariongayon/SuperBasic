@@ -7,7 +7,7 @@ namespace SuperBASIC
 	public interface IFunction
 	{
 		public float Apply(List<BasicNumber> arguments);
-	}
+    }
 
 
 }
