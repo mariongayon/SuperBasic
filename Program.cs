@@ -26,6 +26,8 @@ namespace SuperBASIC
 
 				lib.AddFunction(new Functions.ArcSin(), 1, "ARCSIN");
 				lib.AddFunction(new Functions.Sin(), 1, "SIN");
+				lib.AddFunction(new Functions.Median(), 2, "MEDIAN");
+				lib.AddFunction(new Functions.Solver_linear(), 3, "SOLVER_LINEAR");
 
 				Runtime r = new Runtime(lib);
 				if (args.Length <= 1)
