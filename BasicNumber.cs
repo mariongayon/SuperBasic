@@ -4,14 +4,14 @@ using System.Text;
 
 namespace SuperBASIC
 {
-	enum NumberType{
+	public enum NumberType{
 		Ans,
 		Number,
 		Operand,
 		Memory
 	};
 
-	struct BasicNumber
+	public struct BasicNumber
 	{
 		internal NumberType type;
 

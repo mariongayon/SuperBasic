@@ -4,8 +4,10 @@ using System.Text;
 
 namespace SuperBASIC
 {
-	interface IFunction
+	public interface IFunction
 	{
 		public float Apply(List<BasicNumber> arguments);
 	}
+
+
 }
